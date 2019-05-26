@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "watch": "jest --watchAll",
     "test:filter": "jest filter",
     "test:map": "jest map",
     "test:reduce": "jest reduce"
