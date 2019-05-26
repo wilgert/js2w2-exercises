@@ -18,6 +18,8 @@ const names = [
   'Tommi',
 ];
 
+// 0. Explain arrow method
+
 // 1. Filter names longer than 7 characters
 
 // 2. Filter names containing the letter f
