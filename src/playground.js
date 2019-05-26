@@ -1,5 +1,5 @@
-const { solarSystemAsArray: planets } = require('./solar-system');
-const names = require('./names');
+const { solarSystemAsArray: planets } = require('./data/solar-system');
+const names = require('./data/names');
 
 // 0. Explain arrow method
 

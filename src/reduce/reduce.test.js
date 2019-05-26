@@ -1,5 +1,5 @@
 const { totalMass } = require('./reduce');
-const { solarSystemArray, solarSystemObject } = require('./solar-system');
+const { solarSystemArray, solarSystemObject } = require('../data/solar-system');
 
 describe.skip('totalMass', () => {
   test('should calculate the total mass', () => {

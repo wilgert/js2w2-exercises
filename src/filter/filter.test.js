@@ -1,5 +1,5 @@
 const { withoutSatellites, onlyFastSpinning } = require('./filter');
-const { solarSystemArray, solarSystemObject } = require('./solar-system');
+const { solarSystemArray, solarSystemObject } = require('../data/solar-system');
 
 describe('withoutSatellites', () => {
   test('it should return only planets with no satellites', () => {
