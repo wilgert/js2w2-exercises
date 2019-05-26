@@ -42,7 +42,7 @@ const solarSystemObject = {
     rotationPeriod: 9.92,
     period: 11.86,
     radius: 71490,
-    satellites: '>28 ',
+    satellites: 28,
     velocity: 13.06,
     mass: 317.89,
   },
