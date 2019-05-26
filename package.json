@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:filter": "jest filter",
+    "test:map": "jest map",
+    "test:reduce": "jest reduce"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^24.0.13",
     "jest": "^24.8.0"
   }
 }
