@@ -1,22 +1,5 @@
 const { solarSystemAsArray: planets } = require('./solar-system');
-const names = [
-  'Aaren',
-  'Annemarie',
-  'Blanche',
-  'Charmian',
-  'Darell',
-  'Elfrida',
-  'Freddy',
-  'Hettie',
-  'Johnna',
-  'Kordula',
-  'Louise',
-  'Mavis',
-  'Nicky',
-  'Regan',
-  'Sheelagh',
-  'Tommi',
-];
+const names = require('./names');
 
 // 0. Explain arrow method
 
@@ -24,12 +7,21 @@ const names = [
 
 // 2. Filter names containing the letter f
 
-// 3. Map names to length
+// 3. To withoutSatellites filter exercise together, explain testing
 
-// 4. Map names to first letter only
+// 4. Let the class do the onlyFastSpinning exercise
+// Send repo to clone on Slack: https://github.com/wilgert/js2w2-exercises
 
-// 5. Map names to lower case
+// 5. Map names to length
 
-// 6. Reduce names to total number of letters
+// 6. Map names to first letter only
 
-// 7. Reduce names to total number of letter m
+// 7. Map names to lower case
+
+// 8. Let the class do the circumference exercise
+
+// 9. Reduce names to total number of letters
+
+// 10. Reduce names to total number of letter m
+
+// 11. Let the class do the totalMass exercise
