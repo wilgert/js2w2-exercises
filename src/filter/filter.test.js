@@ -12,6 +12,6 @@ describe('withoutSatellites', () => {
 
 describe.skip('onlyFastSpinning', () => {
   test('it should return only planets that spin faster than earth', () => {
-    expect(solarSystemArray.filter(onlyFastSpinning)).toEqual([solarSystemObject.Jupiter]);
+    expect(onlyFastSpinning(solarSystemArray)).toEqual([solarSystemObject.Jupiter]);
   });
 });
