@@ -1,4 +1,4 @@
-const { withoutSatellites, onlyLongDays } = require('./filter');
+const { withoutSatellites, onlyFastMoving } = require('./filter');
 const { solarSystemArray, solarSystemObject } = require('../data/solar-system');
 
 describe('withoutSatellites', () => {
@@ -10,13 +10,11 @@ describe('withoutSatellites', () => {
   });
 });
 
-describe.skip('onlyLongDays', () => {
-  test('it should return only planets where days are longer than on earth', () => {
-    expect(onlyLongDays(solarSystemArray)).toEqual([
-      solarSystemObject.Jupiter,
-      solarSystemObject.Saturn,
-      solarSystemObject.Uranus,
-      solarSystemObject.Neptune,
+describe.skip('onlyFastMoving', () => {
+  test('it should return only planets that move faster than earth', () => {
+    expect(onlyFastMoving(solarSystemArray)).toEqual([
+      solarSystemObject.Mercury,
+      solarSystemObject.Venus,
     ]);
   });
 });

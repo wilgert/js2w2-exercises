@@ -1,12 +1,14 @@
+const { solarSystemObject } = require('../data/solar-system');
+
 const withoutSatellites = solarSystem => {
   /* add something here */
 };
 
-const onlyLongDays = solarSystem => {
+const onlyFastMoving = solarSystem => {
   /* add something here */
 };
 
 module.exports = {
   withoutSatellites,
-  onlyLongDays,
+  onlyFastMoving,
 };
