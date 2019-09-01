@@ -2,7 +2,7 @@ const { circumference } = require('./map');
 const { solarSystemArray } = require('../data/solar-system');
 
 describe.skip('circumference', () => {
-  test('should return circumference of the orbits', () => {
+  test('should return circumference of the planets', () => {
     expect(circumference(solarSystemArray)).toEqual([
       15324.68896421101,
       38025.83747905085,
