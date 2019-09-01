@@ -1,0 +1,20 @@
+[
+  {
+    "product": "Slippers",
+    "category": "footwear",
+    "price": 10,
+    "quantity": 2
+  },
+  {
+    "product": "Mouse",
+    "price": 10,
+    "quantity": 2,
+    "category": "computer"
+  },
+  {
+    "product": "Sneakers",
+    "category": "footwear",
+    "price": 40,
+    "quantity": 3
+  }
+]
